@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-10 09:35:50 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMjA1MDsyMDE4LTA5LTEwOzA5OjEyOjUxIGEuIG0uOzI4ODk="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMjA1MDsyMDE4LTA5LTEwOzA5OjM1OjUwIGEuIG0uOzE7MzAwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Introduce tu Nombre&quot;" newline="True"/>
+            <declare name="sNombre" type="String" array="False" size=""/>
+            <input variable="sNombre"/>
+            <output expression="&quot;Tu nombre es: &quot;" newline="False"/>
+            <output expression="sNombre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

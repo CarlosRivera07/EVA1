@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-11 09:33:31 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMjA0ODsyMDE4LTA5LTExOzA5OjE0OjQ2IGEuIG0uOzI5MDM="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMjA0ODsyMDE4LTA5LTExOzA5OjMzOjMxIGEuIG0uOzE7MzAwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ingresa tu nombre: &quot;" newline="True"/>
+            <declare name="sNombre" type="String" array="False" size=""/>
+            <input variable="sNombre"/>
+            <output expression="&quot;Ingresa tu edad: &quot;" newline="True"/>
+            <declare name="iEdad" type="Integer" array="False" size=""/>
+            <input variable="iEdad"/>
+            <declare name="iA&#241;o" type="Integer" array="False" size=""/>
+            <assign variable="iA&#241;o" expression="2018 - iEdad"/>
+            <output expression="&quot;Tu nombre es: &quot;" newline="False"/>
+            <output expression="sNombre" newline="True"/>
+            <output expression="&quot;Tu a&#241;o de nacimiento es : &quot;" newline="False"/>
+            <output expression="iA&#241;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

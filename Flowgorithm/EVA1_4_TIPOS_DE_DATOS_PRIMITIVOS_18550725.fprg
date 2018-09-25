@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="carla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-23 09:59:52 p. m."/>
+        <attribute name="created" value="Y2FybGE7TEFQVE9QLUtIVTgwUEZIOzIwMTgtMDktMjM7MDk6NTE6MDQgcC4gbS47MzA1OA=="/>
+        <attribute name="edited" value="Y2FybGE7TEFQVE9QLUtIVTgwUEZIOzIwMTgtMDktMjM7MDk6NTk6NTIgcC4gbS47MTszMTc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="iDato" type="Integer" array="False" size=""/>
+            <assign variable="iDato" expression="10"/>
+            <output expression="iDato" newline="True"/>
+            <declare name="sCade" type="String" array="False" size=""/>
+            <assign variable="sCade" expression="&quot;Hola mundo&quot;"/>
+            <output expression="sCade" newline="True"/>
+            <declare name="rPI" type="Real" array="False" size=""/>
+            <assign variable="rPI" expression="3.1416"/>
+            <output expression="rPI" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

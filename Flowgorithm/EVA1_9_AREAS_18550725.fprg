@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="carla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-13 09:32:38 a. m."/>
+        <attribute name="created" value="Y2FybGE7TEFQVE9QLUtIVTgwUEZIOzIwMTgtMDktMTM7MDg6NTY6MjkgYS4gbS47MzA1Mw=="/>
+        <attribute name="edited" value="Y2FybGE7TEFQVE9QLUtIVTgwUEZIOzIwMTgtMDktMTM7MDk6MzI6MzggYS4gbS47MTszMTU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ingresa el valor de la base mayor (B)&quot;" newline="True"/>
+            <declare name="rBmayor" type="Real" array="False" size=""/>
+            <input variable="rBmayor"/>
+            <output expression="&quot;Ingresa el valor de la base menor (b)&quot;" newline="True"/>
+            <declare name="rBmenor" type="Real" array="False" size=""/>
+            <input variable="rBmenor"/>
+            <output expression="&quot;Ingresa el valor de la altura (h)&quot;" newline="True"/>
+            <declare name="rAltura" type="Real" array="False" size=""/>
+            <input variable="rAltura"/>
+            <declare name="rArea" type="Real" array="False" size=""/>
+            <assign variable="rArea" expression="((rBmayor + rBmenor) * rAltura)/2"/>
+            <output expression="&quot;El &#225;rea de tu trapecio es: &quot;" newline="False"/>
+            <output expression="rArea" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="carla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-18 02:58:51 p. m."/>
+        <attribute name="created" value="Y2FybGE7TEFQVE9QLUtIVTgwUEZIOzIwMTgtMDktMTc7MDI6NTE6NTEgcC4gbS47MzA1Ng=="/>
+        <attribute name="edited" value="Y2FybGE7TEFQVE9QLUtIVTgwUEZIOzIwMTgtMDktMTg7MDI6NTg6NTEgcC4gbS47NDszMTc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Introduce el valor del numerador de la fracci&#243;n 1:&quot;" newline="True"/>
+            <declare name="iFN1" type="Integer" array="False" size=""/>
+            <input variable="iFN1"/>
+            <output expression="&quot;Introduce el valor del denominador de la fraccion 1: &quot;" newline="True"/>
+            <declare name="iFD1" type="Integer" array="False" size=""/>
+            <input variable="iFD1"/>
+            <output expression="&quot;Introduce el valor del numerador de la fracci&#243;n 2: &quot;" newline="True"/>
+            <declare name="iFN2" type="Integer" array="False" size=""/>
+            <input variable="iFN2"/>
+            <output expression="&quot;Introduce el valor del denominador de la fracci&#243;n 2: &quot;" newline="True"/>
+            <declare name="iFD2" type="Integer" array="False" size=""/>
+            <input variable="iFD2"/>
+            <output expression="&quot;Tus operaciones son: &quot;" newline="True"/>
+            <output expression="iFN1 &amp; &quot;/&quot; &amp; iFD1 &amp; &quot; + &quot; &amp; iFN2 &amp; &quot;/&quot; &amp; iFD2" newline="True"/>
+            <output expression="iFN1 &amp; &quot;/&quot; &amp; iFD1 &amp; &quot; - &quot; &amp; iFN2 &amp; &quot;/&quot; &amp; iFD2" newline="True"/>
+            <output expression="iFN1 &amp; &quot;/&quot; &amp; iFD1 &amp; &quot; * &quot; &amp; iFN2 &amp; &quot;/&quot; &amp; iFD2" newline="True"/>
+            <output expression="iFN1 &amp; &quot;/&quot; &amp; iFD1 &amp; &quot; / &quot; &amp; iFN2 &amp; &quot;/&quot; &amp; iFD2" newline="True"/>
+            <declare name="iSuma1" type="Integer" array="False" size=""/>
+            <assign variable="iSuma1" expression="((iFN1 * iFD2) + (iFD1 * iFD2))"/>
+            <declare name="iSuma2" type="Integer" array="False" size=""/>
+            <assign variable="iSuma2" expression="(iFD1*iFD2)"/>
+            <output expression="&quot;El resultado de la suma es : &quot;" newline="True"/>
+            <output expression="iSuma1 &amp; &quot;/&quot; &amp; iSuma2" newline="True"/>
+            <declare name="iResta1" type="Integer" array="False" size=""/>
+            <assign variable="iResta1" expression="((iFN1 * iFD2) - (iFD1 * iFD2))"/>
+            <declare name="iResta2" type="Integer" array="False" size=""/>
+            <assign variable="iResta2" expression="(iFD1*iFD2)"/>
+            <output expression="&quot;El resultado de la resta es : &quot;" newline="True"/>
+            <output expression="iResta1 &amp; &quot;/&quot; &amp; iResta2" newline="True"/>
+            <declare name="iMultiplicacion1" type="Integer" array="False" size=""/>
+            <assign variable="iMultiplicacion1" expression="(iFN1 * iFN2)"/>
+            <declare name="iMultiplicacion2" type="Integer" array="False" size=""/>
+            <assign variable="iMultiplicacion2" expression="(iFD1*iFD2)"/>
+            <output expression="&quot;El resultado de la multiplicaci&#243;n es : &quot;" newline="True"/>
+            <output expression="iMultiplicacion1 &amp; &quot;/&quot; &amp; iMultiplicacion2" newline="True"/>
+            <declare name="iDivision1" type="Integer" array="False" size=""/>
+            <assign variable="iDivision1" expression="(iFN1 * iFD2)"/>
+            <declare name="iDivision2" type="Integer" array="False" size=""/>
+            <assign variable="iDivision2" expression="(iFD1*iFN2)"/>
+            <output expression="&quot;El resultado de la divisi&#243;n es : &quot;" newline="True"/>
+            <output expression="iDivision1 &amp; &quot;/&quot; &amp; iDivision2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

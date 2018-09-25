@@ -1,0 +1,7 @@
+﻿print("Introduce el valor del radio: ")
+rRadio = float(input())
+print("Introduce el angulo: ")
+rAngulo = float(input())
+rVolumen = float(3) / 4 * (3.1416 * rRadio ** 3 / 360 * rAngulo)
+print("El volumen de la cuña es: ", end='', flush=True)
+print(rVolumen, end='', flush=True)

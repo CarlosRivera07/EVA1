@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-12 09:30:42 a. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCQTEzMjA0OTsyMDE4LTA5LTEyOzA4OjU4OjUyIGEuIG0uOzI5MDk="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCQTEzMjA0OTsyMDE4LTA5LTEyOzA5OjMwOjQyIGEuIG0uOzE7MzAwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Introduce la Velocidad Inicial: &quot;" newline="False"/>
+            <declare name="rVelin" type="Real" array="False" size=""/>
+            <input variable="rVelin"/>
+            <output expression="&quot;Introduce la Velocidad Final: &quot;" newline="False"/>
+            <declare name="rVelfin" type="Real" array="False" size=""/>
+            <input variable="rVelfin"/>
+            <output expression="&quot;Introduce el Tiempo: &quot;" newline="False"/>
+            <declare name="rTiempo" type="Real" array="False" size=""/>
+            <input variable="rTiempo"/>
+            <declare name="rDistancia" type="Real" array="False" size=""/>
+            <assign variable="rDistancia" expression="((rVelin + rVelfin)/2 * rTiempo)"/>
+            <output expression="&quot;La distancia que recorrio es: &quot;" newline="True"/>
+            <output expression="rDistancia" newline="False"/>
+            <output expression="&quot;m/s&quot;" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

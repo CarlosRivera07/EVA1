@@ -1,0 +1,10 @@
+print("Introduce la Velocidad Inicial: ", end='', flush=True)
+rVelin = float(input())
+print("Introduce la Velocidad Final: ", end='', flush=True)
+rVelfin = float(input())
+print("Introduce el Tiempo: ", end='', flush=True)
+rTiempo = float(input())
+rDistancia = (rVelin + rVelfin) / 2 * rTiempo
+print("La distancia que recorrio es: ")
+print(rDistancia, end='', flush=True)
+print("m/s", end='', flush=True)
